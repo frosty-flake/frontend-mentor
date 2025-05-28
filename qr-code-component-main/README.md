@@ -25,8 +25,8 @@ component. The QR code has to fit both mobile and desktop screen sizes.
 
 ### Links
 
-- Solution URL: [https://github.com/frosty-flake/frontend-mentor/tree/main/qr-code](https://github.com/frosty-flake/frontend-mentor/tree/main/qr-code)
-- Live Site URL: [https://frosty-flake.github.io/frontend-mentor/qr-code](https://frosty-flake.github.io/frontend-mentor/qr-code)
+- Solution URL: [Github Link](https://github.com/frosty-flake/frontend-mentor/tree/main/qr-code)
+- Live Site URL: [Live Site Link](https://frosty-flake.github.io/frontend-mentor/qr-code-component-main)
 
 ## My process
 
