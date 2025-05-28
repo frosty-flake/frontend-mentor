@@ -1,3 +1,7 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+}
+
 .attribution {
     font-size: 0.5em; text-align: center; 
     margin-top: 2em;
@@ -23,7 +27,7 @@ body {
 
 .container {
     width: min(350px, 95vw);
-    padding: 20px;
+    padding: 20px 30px;
     border: 1px solid black;
     border-radius: 1em;
     box-shadow: 10px 10px black;
@@ -40,4 +44,54 @@ body {
 
 .container > * + * {
     margin-top: 1em;
+}
+
+.container > .tag {
+    padding: 7px 15px;
+    font-weight: 800;
+    border-radius: 5px;
+    background-color: var(--yellow);
+    width: max-content;
+}
+
+.container > .publish-date {
+    font-size: 0.9em;
+    font-weight: 500;
+    color: hsl(0, 0%, 7%);
+}
+
+.container > .article-title {
+    font-size: 1.5em;
+}
+
+.container > .article-title > a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.container > .article-title > a:hover {
+    color: var(--yellow);
+}
+
+.container > .article-content {
+    line-height: 1.5;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.container > .profile {
+    display: flex;
+    align-items: center;
+}
+
+.container > .profile > img {
+    margin-right: 20px;
+    height: 40px;
+}
+
+.container > .profile > .name {
+    font-weight: 800;
+    font-size: 0.9em;
 }
