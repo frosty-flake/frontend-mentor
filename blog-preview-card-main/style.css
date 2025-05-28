@@ -1,7 +1,43 @@
 .attribution {
-    font-size: 11px; text-align: center; 
+    font-size: 0.5em; text-align: center; 
+    margin-top: 2em;
 }
 
 .attribution a {
      color: hsl(228, 45%, 44%); 
+}
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", Verdana, system-ui, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: min(350px, 95vw);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 1em;
+    box-shadow: 10px 10px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.background-image { 
+    height: 200px;
+    background-image: url("./assets/images/illustration-article.svg");
+    background-position: center;
+    border-radius: 1em;
+}
+
+.container > * + * {
+    margin-top: 1em;
 }
